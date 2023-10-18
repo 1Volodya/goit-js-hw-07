@@ -18,6 +18,3 @@ const galleryShow = new SimpleLightbox(".gallery a", {
   captionDelay: 250,
 });
 
-galleryShow.on("show.simplelightbox", function (event) {
-  event.preventDefault();
-});
